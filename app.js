@@ -175,7 +175,7 @@ app.use(cors());
                 img: req.body.author.img
             });
 
-            // console.log("Upload = "+req.body.author); //Check if author datas are retrieved or not
+            // console.log("Upload = "+req.body.author); 
             try{
                 author = await author.save();
 
